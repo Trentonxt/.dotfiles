@@ -1,0 +1,59 @@
+   68  2024-10-30 14:03:16: cd Desktop
+   69  2024-10-30 14:04:30: mkdir timmonsx_lab05
+   70  2024-10-30 14:04:54: pwd
+   71  2024-10-30 14:05:00: ls
+   72  2024-10-30 14:05:44: cd timmonsx_lab05
+   73  2024-10-30 14:06:02: touch lab05.sh
+   74  2024-10-30 14:13:13: nano lab05.sh
+   75  2024-10-30 14:45:19: bash lab05.sh
+   76  2024-10-30 14:46:47: bash ./lab05.sh > timmonsx_lab05.out
+   77  2024-10-30 14:48:14: nano lab05.sh
+   78  2024-10-30 14:49:06: bash ./lab05.sh > timmonsx_lab05.out
+   79  2024-10-30 14:49:18: nano lab05.sh
+   80  2024-10-30 14:49:39: bash ./lab05.sh > timmonsx_lab05.out
+   81  2024-10-30 14:49:49: nano lab05.sh
+   82  2024-10-30 14:50:35: bash ./lab05.sh > timmonsx_lab05.out
+   83  2024-10-30 14:50:49: nano lab05.sh
+   84  2024-10-30 14:51:15: bash ./lab05.sh > timmonsx_lab05.out
+   85  2024-10-30 14:51:32: cd ..
+   86  2024-10-30 14:52:11: tar -zcvf timmonsx_lab05.tar.gz timmonsx_lab05
+   87  2024-10-30 14:52:26: ls -l
+   88  2024-10-30 15:24:30: git config --global user.name "Trenton Timmons"
+   89  2024-10-30 15:25:27: git config --glabal user.email "txtimmons24@gmail.com"
+   90  2024-10-30 15:26:02: cd ~/.ssh
+   91  2024-10-30 15:26:40: touch config
+   92  2024-10-30 15:28:30: nano config
+   93  2024-10-30 15:43:26: cd github
+   94  2024-10-30 15:43:47: mkdir github
+   95  2024-10-30 15:43:52: cd github
+   96  2024-10-30 15:44:48: ssh-keygen -t ed25519 -a 203 -f ./id_ed25519
+   97  2024-10-30 15:47:38: cat id_ed25519.pub
+   98  2024-10-30 15:52:37: cd ~
+   99  2024-10-30 15:52:54: mkdir .dotfiles
+  100  2024-10-30 15:53:03: cd .dotfiles
+  101  2024-10-30 15:53:10: pwd
+  102  2024-10-30 15:54:31: touch README.md
+  103  2024-10-30 15:54:47: nano README.md
+  104  2024-10-30 16:02:15: nano .nanorc
+  105  2024-10-30 16:06:07: cp .nanorc ~/
+  106  2024-10-30 16:06:20: cat README.md
+  107  2024-10-30 16:06:32: git init
+  108  2024-10-30 16:06:45: git add --all
+  109  2024-10-30 16:07:46: git commit -m "INIT commit"
+  110  2024-10-30 16:08:33: git branch -M main
+  111  2024-10-30 16:09:52: git remote add origin git@github.com:<Trentonxt>/.dotfiles
+  112  2024-10-30 16:10:33: git remote add origin git@github.com:Trentonxt/.dotfiles
+  113  2024-10-30 16:10:54: git push -u origin main
+  114  2024-10-30 16:16:21: touch hw1.txt
+  115  2024-10-30 16:16:40: mv hw1.txt Desktop
+  116  2024-10-30 16:18:14: mv hw1.txt ~/Desktop/
+  117  2024-10-30 16:18:54: cd
+  118  2024-10-30 16:21:19: cd ~/.dotfiles
+  119  2024-10-30 16:21:45: mv ~/.dotfiles/hw1.txt ~/Desktop/
+  120  2024-10-30 16:22:20: pwd
+  121  2024-10-30 16:23:43: mv hw1.txt ~/Desktop/
+  122  2024-10-30 16:24:27: ls -a
+  123  2024-10-30 16:24:57: find ~ -name "hw1.txt"
+  124  2024-10-30 16:25:59: touch ~/Desktop/hw1.txt
+  125  2024-10-30 16:35:10: history
+  126  2024-10-30 16:36:40: history | sed -n '68,$p' > commands_used.txt
